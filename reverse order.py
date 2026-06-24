@@ -1,9 +1,10 @@
-#input number greater than 1
-n = int(input("Enter the value of n: "))
+num = input("Enter a number: ")
 
-# print the number n to 1
-print("number from {0} to {1} are: ".format(n,1))
+# Count total digits
+count = len(num)
 
-#loop to print numbers
-for i in range (n,0,-1):
-    print (i)
+# Reverse the number
+reverse_num = num[::-1]
+
+print("Total digits:", count)
+print("Reverse order:", reverse_num)
