@@ -7,4 +7,4 @@ def total_calc(bill_amount,tip_perc):
    # specify only bill_amount
    # defult value of tip percentage is used
 
-   total_calc(200,50)
+total_calc(200,50)
