@@ -1,0 +1,19 @@
+# Program to check if the entered age is valid and whether it is even or odd
+
+try:
+    age = int(input("Enter your age: "))
+
+    # Check if age is valid
+    if age < 0 or age > 120:
+        print("Error: Please enter a valid age.")
+    else:
+        print("The age entered is valid.")
+
+        # Check if age is even or odd
+        if age % 2 == 0:
+            print("The age is Even.")
+        else:
+            print("The age is Odd.")
+
+except ValueError:
+    print("Error: Please enter a numeric value for age.")
